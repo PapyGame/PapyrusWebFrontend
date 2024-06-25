@@ -1,0 +1,6 @@
+[35m@papyrus-web/sirius-web-application:format-lint[0m: cache hit, replaying output [2m85346c6b580e035e[0m
+[35m@papyrus-web/sirius-web-application:format-lint: [0mnpm WARN ignoring workspace config at /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/.npmrc 
+[35m@papyrus-web/sirius-web-application:format-lint: [0m
+[35m@papyrus-web/sirius-web-application:format-lint: [0m> @papyrus-web/sirius-web-application@2024.2.1 format-lint
+[35m@papyrus-web/sirius-web-application:format-lint: [0m> prettier --list-different "src/**/*.{js,ts,tsx,css}"
+[35m@papyrus-web/sirius-web-application:format-lint: [0m

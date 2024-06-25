@@ -1,0 +1,35 @@
+{
+  "name": "@papyrus-web/papyrus-web-parent",
+  "version": "2024.2.1",
+  "author": "Eclipse Sirius",
+  "license": "EPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eclipse-sirius/sirius-web"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "engines": {
+    "node": "18.7.0",
+    "npm": "8.15.0"
+  },
+  "workspaces": [
+    "papyrus-web",
+    "sirius-web-application"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "format": "prettier --write \"*/src/**/*.{js,ts,tsx,css}\"",
+    "format-lint": "prettier --list-different \"*/src/**/*.{js,ts,tsx,css}\""
+  },
+  "devDependencies": {
+    "turbo": "1.4.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "papy-game-prova": "^1.3.1",
+    "pg": "^8.12.0"
+  }
+}

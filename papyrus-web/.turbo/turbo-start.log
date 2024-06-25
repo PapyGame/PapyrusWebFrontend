@@ -1,0 +1,42 @@
+[32m@eclipse-sirius/papyrus-web:start[0m: cache hit, replaying output [2m59a8175e01f5ac48[0m
+[32m@eclipse-sirius/papyrus-web:start: [0mnpm WARN ignoring workspace config at /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/papyrus-web/.npmrc 
+[32m@eclipse-sirius/papyrus-web:start: [0m
+[32m@eclipse-sirius/papyrus-web:start: [0m> @eclipse-sirius/papyrus-web@2024.2.1 start
+[32m@eclipse-sirius/papyrus-web:start: [0m> tsc && vite --host
+[32m@eclipse-sirius/papyrus-web:start: [0m
+[32m@eclipse-sirius/papyrus-web:start: [0m
+[32m@eclipse-sirius/papyrus-web:start: [0m  VITE v4.4.9  ready in 679 ms
+[32m@eclipse-sirius/papyrus-web:start: [0m
+[32m@eclipse-sirius/papyrus-web:start: [0m  ➜  Local:   http://localhost:5173/
+[32m@eclipse-sirius/papyrus-web:start: [0m  ➜  Network: http://172.30.124.57:5173/
+[32m@eclipse-sirius/papyrus-web:start: [0m12:09:46 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m12:10:09 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m12:10:48 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m12:15:13 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m12:15:46 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m12:16:45 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m12:17:47 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m12:20:04 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m12:21:49 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m12:23:06 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m12:23:38 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m3:10:55 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m3:11:48 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m3:12:06 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m3:12:39 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m3:14:00 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m3:15:33 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m3:16:36 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m3:17:07 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m3:17:18 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m3:18:18 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m3:18:30 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m3:18:37 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m3:18:42 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m3:18:57 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m3:19:40 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m3:20:17 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m3:20:52 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m3:21:53 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m3:22:38 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js
+[32m@eclipse-sirius/papyrus-web:start: [0m3:23:17 PM [vite] page reload /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/dist/sirius-web-application.es.js

@@ -1,0 +1,1 @@
+{"version":3,"file":"RepresentationsArea.types.d.ts","sourceRoot":"","sources":["../../src/onboarding/RepresentationsArea.types.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;iFAWiF;AAEjF,MAAM,WAAW,cAAc;IAC7B,EAAE,EAAE,MAAM,CAAC;IACX,KAAK,EAAE,MAAM,CAAC;IACd,IAAI,EAAE,MAAM,CAAC;CACd;AAED,MAAM,WAAW,uBAAuB;IACtC,eAAe,EAAE,cAAc,EAAE,CAAC;CACnC"}

@@ -1,0 +1,103 @@
+[35m@papyrus-web/sirius-web-application:start[0m: cache hit, replaying output [2m932c204d151d4dfe[0m
+[35m@papyrus-web/sirius-web-application:start: [0mnpm WARN ignoring workspace config at /home/loren/tirocinio/org.eclipse.papyrus-web/frontend/sirius-web-application/.npmrc 
+[35m@papyrus-web/sirius-web-application:start: [0m
+[35m@papyrus-web/sirius-web-application:start: [0m> @papyrus-web/sirius-web-application@2024.2.1 start
+[35m@papyrus-web/sirius-web-application:start: [0m> vite build --mode 'development' && tsc
+[35m@papyrus-web/sirius-web-application:start: [0m
+[35m@papyrus-web/sirius-web-application:start: [0mvite v4.4.9 building for development...
+[35m@papyrus-web/sirius-web-application:start: [0mtransforming...
+[35m@papyrus-web/sirius-web-application:start: [0m✓ 88 modules transformed.
+[35m@papyrus-web/sirius-web-application:start: [0mrendering chunks...
+[35m@papyrus-web/sirius-web-application:start: [0mcomputing gzip size...
+[35m@papyrus-web/sirius-web-application:start: [0mdist/sirius-web-application.es.js  249.65 kB │ gzip: 40.06 kB
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "react/jsx-runtime" in "output.globals" – guessing "jsxRuntime".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@eclipse-sirius/sirius-components-core" in "output.globals" – guessing "siriusComponentsCore".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@eclipse-sirius/sirius-components-diagrams" in "output.globals" – guessing "siriusComponentsDiagrams".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@eclipse-sirius/sirius-components-forms" in "output.globals" – guessing "siriusComponentsForms".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@eclipse-sirius/sirius-components-trees" in "output.globals" – guessing "siriusComponentsTrees".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@eclipse-sirius/sirius-components-validation" in "output.globals" – guessing "siriusComponentsValidation".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/CssBaseline" in "output.globals" – guessing "CssBaseline".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/styles" in "output.globals" – guessing "styles".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/icons/AccountTree" in "output.globals" – guessing "AccountTreeIcon".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/icons/Filter" in "output.globals" – guessing "Filter".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/icons/Link" in "output.globals" – guessing "LinkIcon".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/icons/Menu" in "output.globals" – guessing "MenuIcon".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/icons/Warning" in "output.globals" – guessing "WarningIcon".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "react" in "output.globals" – guessing "React".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "react-router-dom" in "output.globals" – guessing "reactRouterDom".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/IconButton" in "output.globals" – guessing "IconButton".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/icons/Close" in "output.globals" – guessing "CloseIcon".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "notistack" in "output.globals" – guessing "notistack".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@apollo/client" in "output.globals" – guessing "client".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@apollo/client/cache" in "output.globals" – guessing "cache".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@apollo/client/link/ws" in "output.globals" – guessing "ws".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@apollo/client/utilities" in "output.globals" – guessing "utilities".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/Card" in "output.globals" – guessing "Card".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/CardContent" in "output.globals" – guessing "CardContent".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/List/List" in "output.globals" – guessing "List".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/ListItem" in "output.globals" – guessing "ListItem".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/ListItemIcon" in "output.globals" – guessing "ListItemIcon".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/ListItemText" in "output.globals" – guessing "ListItemText".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/Typography" in "output.globals" – guessing "Typography".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/icons" in "output.globals" – guessing "icons".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/List" in "output.globals" – guessing "List$1".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@eclipse-sirius/sirius-components-formdescriptioneditors" in "output.globals" – guessing "siriusComponentsFormdescriptioneditors".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@eclipse-sirius/sirius-components-portals" in "output.globals" – guessing "siriusComponentsPortals".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/Grid" in "output.globals" – guessing "Grid".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@xstate/react" in "output.globals" – guessing "react".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "reactflow" in "output.globals" – guessing "reactflow".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/AppBar" in "output.globals" – guessing "AppBar".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/Link" in "output.globals" – guessing "Link".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/Toolbar" in "output.globals" – guessing "Toolbar".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/Tooltip" in "output.globals" – guessing "Tooltip".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/SvgIcon" in "output.globals" – guessing "SvgIcon".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/icons/Help" in "output.globals" – guessing "HelpIcon".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/MenuItem" in "output.globals" – guessing "MenuItem".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/icons/Add" in "output.globals" – guessing "AddIcon".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/Button" in "output.globals" – guessing "Button".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/Dialog" in "output.globals" – guessing "Dialog".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/DialogActions" in "output.globals" – guessing "DialogActions".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/DialogContent" in "output.globals" – guessing "DialogContent".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/DialogTitle" in "output.globals" – guessing "DialogTitle".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/InputLabel" in "output.globals" – guessing "InputLabel".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/Select" in "output.globals" – guessing "Select".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/Snackbar" in "output.globals" – guessing "Snackbar".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "xstate" in "output.globals" – guessing "xstate".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/icons/GetApp" in "output.globals" – guessing "GetAppIcon".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/Checkbox" in "output.globals" – guessing "Checkbox".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/FormControlLabel" in "output.globals" – guessing "FormControlLabel".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/Menu" in "output.globals" – guessing "Menu".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/icons/Delete" in "output.globals" – guessing "DeleteIcon".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/icons/Edit" in "output.globals" – guessing "EditIcon".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/icons/MoreVert" in "output.globals" – guessing "MoreVertIcon".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/icons/Settings" in "output.globals" – guessing "SettingsIcon".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/DialogContentText" in "output.globals" – guessing "DialogContentText".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/TextField" in "output.globals" – guessing "TextField".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/icons/ChevronLeft" in "output.globals" – guessing "ChevronLeftIcon".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/icons/ChevronRight" in "output.globals" – guessing "ChevronRightIcon".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core" in "output.globals" – guessing "core".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/InputAdornment" in "output.globals" – guessing "InputAdornment".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/icons/Clear" in "output.globals" – guessing "ClearIcon".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/icons/Search" in "output.globals" – guessing "SearchIcon".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/FormGroup" in "output.globals" – guessing "FormGroup".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/Container" in "output.globals" – guessing "Container".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/Paper" in "output.globals" – guessing "Paper".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/CardActions" in "output.globals" – guessing "CardActions".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/CircularProgress" in "output.globals" – guessing "CircularProgress".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/icons/CloudUploadOutlined" in "output.globals" – guessing "CloudUploadOutlinedIcon".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/icons/MoreHoriz" in "output.globals" – guessing "MoreHorizIcon".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/lab/Pagination" in "output.globals" – guessing "Pagination".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "graphql" in "output.globals" – guessing "graphql".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/Table" in "output.globals" – guessing "Table".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/TableBody" in "output.globals" – guessing "TableBody".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/TableCell" in "output.globals" – guessing "TableCell".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/TableContainer" in "output.globals" – guessing "TableContainer".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/TableHead" in "output.globals" – guessing "TableHead".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/TablePagination" in "output.globals" – guessing "TablePagination".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/TableRow" in "output.globals" – guessing "TableRow".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/core/Box" in "output.globals" – guessing "Box".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/icons/EditOutlined" in "output.globals" – guessing "EditOutlinedIcon".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/icons/FileCopyOutlined" in "output.globals" – guessing "FileCopyOutlinedIcon".
+[35m@papyrus-web/sirius-web-application:start: [0mNo name was provided for external module "@material-ui/icons/ImageOutlined" in "output.globals" – guessing "ImageOutlinedIcon".
+[35m@papyrus-web/sirius-web-application:start: [0mdist/sirius-web-application.umd.js  279.01 kB │ gzip: 42.22 kB
+[35m@papyrus-web/sirius-web-application:start: [0m✓ built in 1.30s

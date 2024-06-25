@@ -1,0 +1,1 @@
+{"version":3,"file":"ApolloGraphQLProvider.types.d.ts","sourceRoot":"","sources":["../../src/graphql/ApolloGraphQLProvider.types.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;iFAWiF;;AAEjF,MAAM,WAAW,0BAA0B;IACzC,QAAQ,CAAC,EAAE,KAAK,CAAC,SAAS,CAAC;IAC3B,UAAU,EAAE,MAAM,CAAC;IACnB,QAAQ,EAAE,MAAM,CAAC;CAClB"}

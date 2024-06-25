@@ -1,0 +1,1 @@
+{"version":3,"file":"useCreateApolloClient.d.ts","sourceRoot":"","sources":["../../src/graphql/useCreateApolloClient.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;iFAWiF;AAEjF,OAAO,EACL,YAAY,EAOZ,qBAAqB,EAEtB,MAAM,gBAAgB,CAAC;AAiBxB,eAAO,MAAM,qBAAqB,eAAgB,MAAM,YAAY,MAAM,KAAG,aAAa,qBAAqB,CAuE9G,CAAC"}
