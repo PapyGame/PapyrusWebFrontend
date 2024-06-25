@@ -1,3 +1,4 @@
+mkdir -p ~/.m2 \
 echo '<?xml version="1.0" encoding="UTF-8"?>
 <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -29,8 +30,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>
       <password>'"$GITHUB_ACCESS_TOKEN"'</password>
     </server>
   </servers>
-</settings>' > ./settings.xml && \
-echo '//npm.pkg.github.com/:_authToken='"$GITHUB_ACCESS_TOKEN" > ./.npmrc && \
-npm install && \
-npm run build && \
-cat ./.npmrc
+</settings>' > ~/.m2/settings.xml
+echo '//npm.pkg.github.com/:_authToken='"$GITHUB_ACCESS_TOKEN" > ~/.npmrc 
+npm install
+npm run build
