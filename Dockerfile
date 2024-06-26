@@ -1,4 +1,4 @@
-FROM ghcr.io/railwayapp/nixpacks:latest
+FROM node:18.7.0
 
 WORKDIR /app/
 
