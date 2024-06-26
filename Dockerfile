@@ -12,7 +12,7 @@ RUN echo '//npm.pkg.github.com/:_authToken=${GITHUB_ACCESS_TOKEN}' > /app/.npmrc
 
 ENV NPM_CONFIG_USERCONFIG=/app/.npmrc
 
-RUN --mount=type=cache,id=npm-cache,target=/root/.npm npm ci
+RUN --mount=type=cache,id=npm-cache-${CI_COMMIT_REF_SLUG:-local},target=/root/.npm npm ci
 
 RUN npm run build
 
