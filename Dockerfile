@@ -1,4 +1,4 @@
-FROM nixos/nix:latest AS nix-build
+FROM ghcr.io/railwayapp/nixpacks:ubuntu-1716249803@sha256:5ef4d2021c418fcaabb56cea5ea9e24a5fdedfe27f58062d9689214dfed45c46
 
 WORKDIR /app
 
