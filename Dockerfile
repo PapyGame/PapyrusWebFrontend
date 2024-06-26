@@ -19,5 +19,7 @@ RUN npm run build
 # Expose the port your app runs on
 EXPOSE 8080
 
+RUN npx prettier --write .
+
 # Command to run the Spring boot application
 CMD ["npm", "start"]
