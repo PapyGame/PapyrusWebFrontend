@@ -20,4 +20,4 @@ RUN npm run build
 EXPOSE 8080
 
 # Command to run the Spring boot application
-CMD ["npm", "run", "start"]
+CMD ["npm", "start"]
