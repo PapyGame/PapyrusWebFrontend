@@ -4,6 +4,8 @@ WORKDIR /app/
 
 COPY . /app/.
 
+ENV GITHUB_ACCESS_TOKEN $GITHUB_ACCESS_TOKEN
+
 RUN echo '//npm.pkg.github.com/:_authToken=$GITHUB_ACCESS_TOKEN' > /app/.npmrc
 
 RUN cat /app/.npmrc
