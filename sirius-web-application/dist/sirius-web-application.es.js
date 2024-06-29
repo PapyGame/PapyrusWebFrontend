@@ -7280,9 +7280,10 @@ const siriusWebTheme = createTheme(
   },
   baseTheme
 );
+require("dotenv").config();
+const API_SERVER_URL = process.env.API_SERVER_URL;
 const PapyGameView = () => {
   useParams();
-  const [firstRun, setFirstRun] = useState(true);
   const [text, setText] = useState("Loading...");
   const [missing, setMissing] = useState({});
   const [constraints, setConstraints] = useState({});
@@ -7302,15 +7303,12 @@ const PapyGameView = () => {
     setIsButtonClicked(true);
   };
   useEffect(() => {
-    if (firstRun) {
-      setFirstRun(false);
-      console.log("First run");
+    if (isButtonClicked) {
+      fetchGraderResults();
+    } else {
       fetchText();
       fetchStudentConstraints();
       fetchTeacherConstraints();
-    } else if (isButtonClicked) {
-      console.log("Button clicked");
-      fetchGraderResults();
     }
   }, [isButtonClicked]);
   const fetchText = () => {
@@ -7318,7 +7316,7 @@ const PapyGameView = () => {
       project_id: "6622b049ab72ca0845212bbc"
     };
     const queryString = new URLSearchParams(getData).toString();
-    fetch(`http://127.0.0.1:3000/api/v1/assignment?${queryString}`, {
+    fetch(API_SERVER_URL + `/api/v1/assignment?${queryString}`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json"
@@ -7335,7 +7333,7 @@ const PapyGameView = () => {
     });
   };
   const fetchStudentConstraints = () => {
-    fetch(`http://127.0.0.1:3000/api/v1/constraints?user=student`, {
+    fetch(API_SERVER_URL + `/api/v1/constraints?user=student`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json"
@@ -7352,7 +7350,7 @@ const PapyGameView = () => {
     });
   };
   const fetchTeacherConstraints = () => {
-    fetch(`http://127.0.0.1:3000/api/v1/constraints?user=teacher`, {
+    fetch(API_SERVER_URL + `/api/v1/constraints?user=teacher`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json"
@@ -7428,33 +7426,33 @@ const PapyGameView = () => {
     return acc;
   }, {});
   const fetchGraderResults = async () => {
-    await fetch("http://127.0.0.1:3000/api/v1/graderResults?user=student", {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json"
-      }
-    }).then((response) => {
+    try {
+      const response = await fetch(
+        API_SERVER_URL + `/api/v1/graderResults?user=student`,
+        {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json"
+          }
+        }
+      );
       if (!response.ok) {
         throw new Error("Something went wrong");
       }
-      return response.text();
-    }).then((data) => {
-      console.log(data);
-      let lines = data.split(/\r?\n/);
-      let matches = lines[0].match(/\d+(\.\d+)?/g);
+      const data = await response.text();
+      setGraderResults(data.split(/\r?\n/));
+      let matches = graderResults[0].match(/\d+(\.\d+)?/g);
       let studentScore = parseFloat(matches[0]);
       let totalScore = parseFloat(matches[1]);
       let sufficientScore = totalScore * 0.6;
       if (studentScore >= sufficientScore) {
       } else {
       }
-      setGraderResults(lines);
-    }).catch((error2) => {
+      setIsButtonClicked(false);
+      setDone(true);
+    } catch (error2) {
       setError(error2);
-    });
-
-    setIsButtonClicked(false);
-    setDone(true);
+    }
   };
   if (done) {
     return jsxs(Fragment, {

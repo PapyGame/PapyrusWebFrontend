@@ -7195,6 +7195,8 @@
     },
     baseTheme
   );
+  require("dotenv").config();
+  const API_SERVER_URL = process.env.API_SERVER_URL;
   const PapyGameView = () => {
     reactRouterDom.useParams();
     const [text, setText] = React.useState("Loading...");
@@ -7229,7 +7231,7 @@
         project_id: "6622b049ab72ca0845212bbc"
       };
       const queryString = new URLSearchParams(getData).toString();
-      fetch(`http://127.0.0.1:3000/api/v1/assignment?${queryString}`, {
+      fetch(API_SERVER_URL + `/api/v1/assignment?${queryString}`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json"
@@ -7246,7 +7248,7 @@
       });
     };
     const fetchStudentConstraints = () => {
-      fetch(`http://127.0.0.1:3000/api/v1/constraints?user=student`, {
+      fetch(API_SERVER_URL + `/api/v1/constraints?user=student`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json"
@@ -7263,7 +7265,7 @@
       });
     };
     const fetchTeacherConstraints = () => {
-      fetch(`http://127.0.0.1:3000/api/v1/constraints?user=teacher`, {
+      fetch(API_SERVER_URL + `/api/v1/constraints?user=teacher`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json"
@@ -7341,7 +7343,7 @@
     const fetchGraderResults = async () => {
       try {
         const response = await fetch(
-          `http://127.0.0.1:3000/api/v1/graderResults?user=student`,
+          API_SERVER_URL + `/api/v1/graderResults?user=student`,
           {
             method: "GET",
             headers: {
