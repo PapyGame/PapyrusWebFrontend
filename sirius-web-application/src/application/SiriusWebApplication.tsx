@@ -46,8 +46,8 @@ import { Router } from '../router/Router';
 import { siriusWebTheme as defaultTheme } from '../theme/siriusWebTheme';
 import { SiriusWebApplicationProps } from './SiriusWebApplication.types';
 
-import { PapyGameView } from 'papy-game-prova';
-import { School } from '@material-ui/icons';
+import { PapyGameView } from 'papy-game';
+import PapyGame from 'papy-game/dist/icons/PapyGame';
 
 const style = {
   display: 'grid',
@@ -95,8 +95,8 @@ export const SiriusWebApplication = ({
     },
     {
       side: 'left',
-      title: 'Papy Game',
-      icon: <School />,
+      title: 'PapyGame',
+      icon: <PapyGame />,
       component: PapyGameView,
     },
     {
