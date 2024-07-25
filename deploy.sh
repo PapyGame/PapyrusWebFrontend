@@ -3,6 +3,9 @@
 # Esci immediatamente se un comando fallisce
 set -e
 
+# Installa le dipendenze del progetto
+npm install
+
 # Esegui il build del progetto
 npm run build
 
