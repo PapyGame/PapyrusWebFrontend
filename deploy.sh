@@ -4,13 +4,15 @@
 set -e
 
 # Installa le dipendenze del progetto
-npm install
+npm ci
 
 # Esegui il build del progetto
 npm run build
 
 # Crea la directory di destinazione se non esiste
 mkdir -p /var/www/PapyGame/
+
+rm -rf /var/www/PapyGame/*
 
 # Copia i file dal progetto papyrus-web al server web
 cp -r ./papyrus-web/dist/* /var/www/PapyGame/
